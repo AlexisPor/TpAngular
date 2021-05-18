@@ -1,0 +1,4 @@
+<div *ngFor="let post of arrayPosts">
+  <app-post-list-item [postPatate]='post.title' [postContent]='post.content' [postCreate]='post.created_at' [postLike]='post.likeIts'></app-post-list-item>
+
+</div>

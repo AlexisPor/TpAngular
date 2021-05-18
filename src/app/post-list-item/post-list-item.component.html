@@ -1,0 +1,7 @@
+<div [ngClass]="{'green': getColor()=='green', 'red':getColor()=='red'}">
+  <h3>{{postPatate}}</h3>
+  <p>{{postCreate | date:'medium'}}</p>
+  <p>{{postContent}}</p>
+  <button (click)="increment()">Love it</button>
+  <button (click)="decrement()">Don't love it</button>
+</div>
